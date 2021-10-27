@@ -31,5 +31,6 @@ a {
 }
 
 .big-text{
+  font-family: 'test', Arial, Helvetica, sans-serif;
   text-align: center;
 }
