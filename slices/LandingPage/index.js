@@ -3,17 +3,17 @@ import { RichText } from 'prismic-reactjs'
 
 const LandingPage = ({ slice }) => (
   <section>
-    <span className="title">
+    {/* <span className="main-title">
       {
         slice.primary.title ?
         <RichText render={slice.primary.title}/>
         : <h2>Template slice, update me!</h2>
       }
-    </span>
+    </span> */}
     <span className="big-text">
       {
         slice.primary.bigText ?
-        <RichText render={slice.primary.bigText} lang="en"/>
+        <RichText render={slice.primary.bigText}/>
         : <p>start by editing this slice from inside Prismic builder!</p>
       }
     </span>
@@ -30,7 +30,7 @@ const LandingPage = ({ slice }) => (
         top: 50%;
         transform: translateY(-50%);
       }
-      .title{
+      .main-title{
         font-size: 6vw;
         line-height: 1;
         position: absolute;
@@ -40,7 +40,7 @@ const LandingPage = ({ slice }) => (
       .big-text{
         font-size: 16vw;
         line-height: 1;
-        text-indent: 31.5vw;
+        /* text-indent: 31.5vw; */
       }
     `}</style>
   </section>
