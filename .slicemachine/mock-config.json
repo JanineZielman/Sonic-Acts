@@ -1,22 +1,21 @@
 {
   "slices": {
-    "TextBlock": {
+    "LandingPage": {
       "default-slice": {
         "primary": {
-          "text": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          },
           "title": {
             "config": {
               "patternType": "HEADING",
               "blocks": 1
             }
+          },
+          "bigText": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
           }
-        },
-        "items": {}
+        }
       }
     }
   },

@@ -21,9 +21,6 @@ const TextBlock = ({ slice }) => (
           margin: 4em auto;
           text-align: center;
         }
-        .title {
-          color: #8592e0;
-        }
     `}</style>
   </section>
 )
