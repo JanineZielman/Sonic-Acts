@@ -11,8 +11,8 @@ const TextBlock = ({ slice }) => (
       }
     </span>
     {
-      slice.primary.description ?
-      <RichText render={slice.primary.description}/>
+      slice.primary.text ?
+      <RichText render={slice.primary.text}/>
       : <p>start by editing this slice from inside Prismic builder!</p>
     }
     <style jsx>{`

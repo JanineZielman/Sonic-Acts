@@ -10,8 +10,7 @@
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
       "description": "TextBlock",
-      "primary": {},
-      "items": {
+      "primary": {
         "title": {
           "config": {
             "label": "Title",
@@ -30,7 +29,8 @@
           },
           "type": "StructuredText"
         }
-      }
+      },
+      "items": {}
     }
   ]
 }
