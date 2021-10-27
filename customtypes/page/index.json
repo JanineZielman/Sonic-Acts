@@ -11,6 +11,17 @@
           "label": "UID",
           "placeholder": "unique-identifier-eg-homepage"
         }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "text_block": {
+              "type": "SharedSlice"
+            }
+          }
+        }
       }
     },
     "SEO Metadata": {

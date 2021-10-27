@@ -1,0 +1,63 @@
+{
+  "id": "a2f79053-c283-4aaa-a30a-c27574acf696",
+  "uid": "officiis-occaecati-enim",
+  "type": "page",
+  "data": {
+    "meta_title": "target B2B initiatives",
+    "meta_description": "whiteboard impactful models",
+    "social_cards": [
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "redefine turn-key e-services",
+        "social_card_description": "enable enterprise web services"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "reintermediate interactive applications",
+        "social_card_description": "embrace user-centric communities"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "expedite B2C interfaces",
+        "social_card_description": "synthesize bricks-and-clicks paradigms"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "seize back-end portals",
+        "social_card_description": "reintermediate turn-key channels"
+      }
+    ]
+  }
+}
