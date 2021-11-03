@@ -10,16 +10,27 @@ const LandingPage = ({ slice }) => (
           slice.primary.bigText1 ?
             <h1>
               {RichText.asText(slice.primary.bigText1).split("").map(function(char, index){
-                return <span aria-hidden="true" key={index} style={{'--delay': (index * 0.5) + 's', '--random': Math.floor(Math.random() * 25 + 10) + 's'}}>{char}</span>;
+                return <span aria-hidden="true" key={index} style={{'--delay': (index * 0.5) + 's'}}>{char}</span>;
               })}
               <br/>
               {RichText.asText(slice.primary.bigText2).split("").map(function(char, index){
-                return <span aria-hidden="true" key={index} style={{'--delay': (index * 0.5) + 's', '--random': Math.floor(Math.random() * 25 + 10) + 's'}}>{char}</span>;
+                return <span aria-hidden="true" key={index} style={{'--delay': (index * 0.5) + 's'}}>{char}</span>;
               })}
             </h1>
           : <p>Sonic Acts</p>
         }
       </div>
+      {/* <div className="big-text test">
+        <h1>
+          {("toxicity’s").split("").map(function(char, index){
+            return <span aria-hidden="true" key={index} style={{'--delay': (index * 0.5) + 's'}}>{char}</span>;
+          })}
+          <br/>
+          {("reach").split("").map(function(char, index){
+            return <span aria-hidden="true" key={index} style={{'--delay': (index * 0.5) + 's'}}>{char}</span>;
+          })}
+        </h1>
+      </div> */}
     </div>
     <style jsx>{`
       section{
@@ -29,6 +40,7 @@ const LandingPage = ({ slice }) => (
         width: 100vw;
         height: 100vh;
         overflow: hidden;
+        overflow-y: scroll;
         color: white;
         background-color: rgb(36,11,35);
         animation: bgAnimation 20s infinite;
@@ -93,49 +105,29 @@ const LandingPage = ({ slice }) => (
         line-height: 0.9;
         font-family: 'test', Arial, Helvetica, sans-serif;
         text-align: center;
-        /* font-variation-settings: 'wght' 50; */
         cursor: default;
+        /* height: 90vh;
+        margin-top: 10vh; */
       }
 
       .big-text span{
-        /* animation: fontAnimationHover 10s infinite, colorAnimation 20s infinite;
-        animation-delay: var(--delay), var(--delay);
+        animation: colorAnimation 20s infinite;
+        animation-delay: var(--delay);
         color: rgb(210,202,228);
-        font-family: 'test', Arial, Helvetica, sans-serif;
         animation-timing-function: ease-in-out, ease-in-out;
-        transition: animation 20s ease-in-out;
-        animation-direction: alternate; */
+        animation-direction: alternate;
         font-variation-settings: 'wght' 50;
         color: rgb(210,202,228);
-        /* animation-direction: reverse; */
         transition: font-variation-settings 1s;
-        transition-timing-function: cubic-bezier(0, 0, 0.38, 1);
+        transition-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1);
         font-family: 'test', Arial, Helvetica, sans-serif;
-        /* animation-timing-function: ease-in-out, ease-in-out; */
       }
 
       .big-text span:hover{
-        /* animation-delay: 0, var(--delay); */
-        /* animation: fontAnimationHover 5s infinite, colorAnimation 20s infinite; */
-        /* animation: fontAnimationHover 5s, colorAnimation 20s; */
-        /* animation-delay: var(--delay), var(--delay); */
         font-variation-settings: 'wght' 100;
       }
 
-      /* @keyframes fontAnimation {
-        0% {
-          font-variation-settings: 'wght' 50;
-        }
-        25% {
-          font-variation-settings: 'wght' 100;
-        }
-        50% {
-          font-variation-settings: 'wght' 50;
-        }
-        100% {
-          font-variation-settings: 'wght' 50;
-        }
-      }
+   
 
       @keyframes fontAnimationHover {
         0% {
