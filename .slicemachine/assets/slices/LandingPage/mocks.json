@@ -5,17 +5,17 @@
     "slice_type": "landing_page",
     "items": [],
     "primary": {
-      "title": [
+      "bigText1": [
         {
           "type": "heading1",
-          "text": "Synergize integrated markets",
+          "text": "Generate bricks-and-clicks initiatives",
           "spans": []
         }
       ],
-      "bigText": [
+      "bigText2": [
         {
-          "type": "heading2",
-          "text": "Orchestrate mission-critical schemas",
+          "type": "heading1",
+          "text": "Matrix proactive communities",
           "spans": []
         }
       ]

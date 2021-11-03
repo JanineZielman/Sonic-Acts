@@ -3,13 +3,13 @@
     "LandingPage": {
       "default-slice": {
         "primary": {
-          "title": {
+          "bigText1": {
             "config": {
               "patternType": "HEADING",
               "blocks": 1
             }
           },
-          "bigText": {
+          "bigText2": {
             "config": {
               "patternType": "HEADING",
               "blocks": 1
