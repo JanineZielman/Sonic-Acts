@@ -20,17 +20,28 @@ const LandingPage = ({ slice }) => (
           : <p>Sonic Acts</p>
         }
       </div>
-      {/* <div className="big-text test">
+      <div className="test">
         <h1>
-          {("toxicity’s").split("").map(function(char, index){
+          {("material").split("").map(function(char, index){
             return <span aria-hidden="true" key={index} style={{'--delay': (index * 0.5) + 's'}}>{char}</span>;
           })}
           <br/>
-          {("reach").split("").map(function(char, index){
+          {("witness").split("").map(function(char, index){
             return <span aria-hidden="true" key={index} style={{'--delay': (index * 0.5) + 's'}}>{char}</span>;
           })}
         </h1>
-      </div> */}
+      </div>
+      <div className="test2">
+        <h1>
+          {("Nerea").split("").map(function(char, index){
+            return <span aria-hidden="true" key={index} style={{'--delay': (index * 0.5) + 's'}}>{char}</span>;
+          })}
+          <br/>
+          {("Calvillo").split("").map(function(char, index){
+            return <span aria-hidden="true" key={index} style={{'--delay': (index * 0.5) + 's'}}>{char}</span>;
+          })}
+        </h1>
+      </div>
     </div>
     <style jsx>{`
       section{
@@ -89,26 +100,25 @@ const LandingPage = ({ slice }) => (
         }
       }
       .wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        overflow: none;
-        word-break: break-all;
-        justify-content: center;
         width: 90vw;
-        left: 5vw;
-        position: absolute;
-        top: 48%;
-        transform: translateY(-50%);
+        margin: auto auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100vh;
       }
-      .big-text{
-        font-size: 16vw;
+      .big-text, .test, .test2{
+        font-size: 14vw;
         line-height: 0.9;
         font-family: 'test', Arial, Helvetica, sans-serif;
         text-align: center;
         cursor: default;
-        /* height: 90vh;
-        margin-top: 10vh; */
+        margin: auto auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
       }
+
 
       .big-text span{
         animation: colorAnimation 20s infinite;
@@ -120,11 +130,33 @@ const LandingPage = ({ slice }) => (
         color: rgb(210,202,228);
         transition: font-variation-settings 1s;
         transition-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1);
-        font-family: 'test', Arial, Helvetica, sans-serif;
+        font-family: 'test4', Arial, Helvetica, sans-serif;
       }
 
       .big-text span:hover{
         font-variation-settings: 'wght' 100;
+      }
+
+      .test span{
+        animation: fontAnimationHover 5s infinite, colorAnimation 20s infinite;
+        animation-delay: var(--delay), var(--delay);
+        color: rgb(210,202,228);
+        animation-timing-function: ease-in-out, ease-in-out;
+        animation-direction: alternate;
+        font-variation-settings: 'wght' 50;
+        color: rgb(210,202,228);
+        font-family: 'test', Arial, Helvetica, sans-serif;
+      }
+
+      .test2 span{
+        animation: fontAnimationHover 5s infinite, colorAnimation 20s infinite;
+        animation-delay: var(--delay), var(--delay);
+        color: rgb(210,202,228);
+        animation-timing-function: ease-in-out, ease-in-out;
+        animation-direction: alternate;
+        font-variation-settings: 'wght' 50;
+        color: rgb(210,202,228);
+        font-family: 'test3', Arial, Helvetica, sans-serif;
       }
 
    
