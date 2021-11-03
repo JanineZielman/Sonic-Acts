@@ -133,7 +133,7 @@ const LandingPage = ({ slice }) => (
         font-family: 'test4', Arial, Helvetica, sans-serif;
       }
 
-      .big-text span:hover{
+      .big-text span:hover, .big-text span:active{
         font-variation-settings: 'wght' 100;
       }
 
