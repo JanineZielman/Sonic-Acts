@@ -12,6 +12,15 @@
           "placeholder": "unique-identifier-eg-homepage"
         }
       },
+      "title": {
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        },
+        "type": "StructuredText"
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
@@ -21,6 +30,9 @@
               "type": "SharedSlice"
             },
             "landing_page": {
+              "type": "SharedSlice"
+            },
+            "news_overview": {
               "type": "SharedSlice"
             }
           }

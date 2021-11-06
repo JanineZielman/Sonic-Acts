@@ -1,25 +1,38 @@
 {
   "slices": {
-    "LandingPage": {
-      "default-slice": {
-        "primary": {
-          "bigText1": {
-            "config": {
-              "patternType": "HEADING",
-              "blocks": 1
-            }
-          },
-          "bigText2": {
-            "config": {
-              "patternType": "HEADING",
-              "blocks": 1
-            }
-          }
+  },
+  "_cts": {
+    "page": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "post": {
+      "title": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "news-item": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "news": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
         }
       }
     }
-  },
-  "_cts": {
-    "page": {}
   }
 }

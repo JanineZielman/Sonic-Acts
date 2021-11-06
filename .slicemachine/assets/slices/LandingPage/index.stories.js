@@ -5,5 +5,5 @@ export default {
 }
 
 
-export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"landing_page","items":[],"primary":{"bigText1":[{"type":"heading1","text":"Generate bricks-and-clicks initiatives","spans":[]}],"bigText2":[{"type":"heading1","text":"Matrix proactive communities","spans":[]}]},"id":"_DefaultSlice"}} />
+export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"landing_page","items":[],"primary":{"bigText1":[{"type":"heading1","text":"Productize scalable infomediaries","spans":[]}],"bigText2":[{"type":"heading1","text":"Mesh value-added web services","spans":[]}]},"id":"_DefaultSlice"}} />
 _DefaultSlice.storyName = 'Default slice'

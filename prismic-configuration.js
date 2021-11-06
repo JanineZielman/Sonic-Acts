@@ -1,17 +1,18 @@
 import Prismic from "@prismicio/client";
 import Link from "next/link";
 
-import smConfig from "./sm.json";
+// -- Prismic Repo Name
+export const repoName = 'sonic-acts'
 
-if (!smConfig.apiEndpoint) {
-  console.warn("Looks like Slice Machine hasn't been bootstraped already.\nCheck the `Getting Started` section of the README file :)");
-}
-
-export const apiEndpoint = smConfig.apiEndpoint;
+// -- Prismic API endpoint
+// Determines which repository to query and fetch data from
+// Configure your site's access point here
+export const apiEndpoint = `https://${repoName}.prismic.io/api/v2`
 
 // -- Access Token if the repository is not public
 // Generate a token in your dashboard and configure it here if your repository is private
-export const accessToken = "";
+export const accessToken = 'MC5ZWWFBbkJFQUFDSUFPaVp2.H0Lvv70PIe-_vTZ-77-977-977-9e--_vVUM77-977-9dD8u77-977-9XXrvv73vv70Z77-977-9Te-_vTY'
+
 
 // -- Link resolution rules
 // Manages the url links to internal Prismic documents
@@ -19,8 +20,25 @@ export const linkResolver = (doc) => {
   if (doc.type === "page") {
     return `/${doc.uid}`;
   }
+  if (doc.type === "news") {
+    return `/news`;
+  }
+  if (doc.type === 'news-item') {
+    return `/news/${doc.uid}`
+  }
   return "/";
 };
+
+// Additional helper function for Next/Link components
+export const hrefResolver = (doc) => {
+  if (doc.type === 'news-item') {
+    return '/news/[uid]'
+  }
+  if (doc.type === "news") {
+    return `/news`;
+  }
+  return '/'
+}
 
 export const customLink = (type, element, content, children, index) => (
   <Link
