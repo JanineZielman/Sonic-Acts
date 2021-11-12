@@ -15,11 +15,11 @@ const NewsPage = ( {news, previewRef} ) => {
 
   useUpdatePreviewRef(previewRef, news.id)
 
-  if (news && news.data) {
+  if (news && props) {
     return (
       <section>
-        <RichText render={news.data.title} />
-        <span>{news.data.date}</span>
+        <RichText render={props.title} />
+        <span>{props.date}</span>
         <SliceZone {...props} resolver={resolver} />
         <style jsx>{`
           section {
