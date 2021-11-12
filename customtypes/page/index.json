@@ -32,7 +32,7 @@
             "landing_page": {
               "type": "SharedSlice"
             },
-            "news_overview": {
+            "image": {
               "type": "SharedSlice"
             }
           }

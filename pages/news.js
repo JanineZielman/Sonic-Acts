@@ -11,7 +11,6 @@ import useUpdatePreviewRef from '../utils/useUpdatePreviewRef';
  * Homepage component
  */
 const NewsIndex = ({ newsHome, posts, previewRef }) => {
-
   useUpdatePreviewRef(previewRef, newsHome.id)
 
   if (newsHome && newsHome.data) {
@@ -30,15 +29,9 @@ export async function getStaticProps({ previewData }) {
 
   const previewRef = previewData ? previewData.ref : null
   const refOption = previewRef ? { ref: previewRef } : null
-
-  // const blogHome = await Client().getSingle("news", refOption) || {}
-  // const newsHome = await Client().getByUID('page', 'news')
   const newsHome = await Client().getSingle("news", refOption) || {}
-
-  const postsQueryOptions = { orderings: "[my.post.date desc]", ...(refOption)}
-  // const posts = await Client().query(Prismic.Predicates.at("document.type", "news-item"), postsQueryOptions)
-
-  const posts = await Client().query(Prismic.Predicates.at("document.type", "news-item"))
+  const postsQueryOptions = { orderings: "[my.news-item.date desc]", ...(refOption)}
+  const posts = await Client().query(Prismic.Predicates.at("document.type", "news-item"), postsQueryOptions)
 
   return {
     props: {

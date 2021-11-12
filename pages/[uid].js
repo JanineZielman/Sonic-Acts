@@ -11,7 +11,7 @@ const Page = (props) => {
       <SliceZone {...props} resolver={resolver} />
       <style jsx>{`
         section {
-          max-width: 600px;
+          max-width: 900px;
           margin: 4em auto;
           text-align: center;
         }
