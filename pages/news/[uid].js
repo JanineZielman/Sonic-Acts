@@ -6,21 +6,16 @@ import resolver from "../../sm-resolver.js";
 // Project functions & styles
 import { Client } from "../../utils/prismicHelpers";
 import { queryRepeatableDocuments } from '../../utils/queries';
-import useUpdatePreviewRef from '../../utils/useUpdatePreviewRef';
 
 
-const NewsPage = ( {news, previewRef} ) => {
+const NewsPage = ( {news} ) => {
 
-  const props = news.data;
-
-  useUpdatePreviewRef(previewRef, news.id)
-
-  if (news && props) {
+  if (news.data) {
     return (
       <section>
-        <RichText render={props.title} />
-        <span>{props.date}</span>
-        <SliceZone {...props} resolver={resolver} />
+        <RichText render={news.data.title} />
+        <span>{news.data.date}</span>
+        <SliceZone {...news.data} resolver={resolver} />
         <style jsx>{`
           section {
             max-width: 600px;
@@ -35,14 +30,10 @@ const NewsPage = ( {news, previewRef} ) => {
   return null;
 };
 
-export async function getStaticProps({ params, previewData }) {
-  const previewRef = previewData ? previewData.ref : null
-  const refOption = previewRef ? { ref: previewRef } : null
-
-  const news = await Client().getByUID("news-item", params.uid, refOption) || {}
+export async function getStaticProps({ params }) {
+  const news = await Client().getByUID("news-item", params.uid) || {}
   return {
     props: {
-      previewRef,
       news
     }
   }
@@ -52,7 +43,7 @@ export async function getStaticPaths() {
   const documents = await queryRepeatableDocuments((doc) => doc.type === 'news-item')
   return {
     paths: documents.map(doc => `/news/${doc.uid}`),
-    fallback: true,
+    fallback: false,
   }
 }
 
