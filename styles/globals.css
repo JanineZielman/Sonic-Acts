@@ -34,9 +34,9 @@ img{
 .text2 strong{
   font-family: 'grime-1';
   color: rgb(0,255,0);
-  /* animation: fontAnimationHover 5s infinite, colorAnimation 20s infinite;
+  animation: fontAnimationHover 5s infinite, colorAnimation 20s infinite;
   animation-timing-function: ease-in-out, ease-in-out;
-  animation-direction: alternate; */
+  animation-direction: alternate;
   font-variation-settings: 'wght' 50;
   font-style: normal;
   font-size: 10vw;
