@@ -33,7 +33,7 @@ img{
 
 .text2 strong{
   font-family: 'grime-1';
-  color: red;
+  color: rgb(0,255,0);
   /* animation: fontAnimationHover 5s infinite, colorAnimation 20s infinite;
   animation-timing-function: ease-in-out, ease-in-out;
   animation-direction: alternate; */
