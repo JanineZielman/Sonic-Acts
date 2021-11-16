@@ -1,5 +1,26 @@
 {
-  "slices": {},
+  "slices": {
+    "SpecialText": {
+      "default-slice": {
+        "primary": {
+          "text": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "text": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  },
   "_cts": {
     "page": {
       "title": {
@@ -32,6 +53,7 @@
           "blocks": 1
         }
       }
-    }
+    },
+    "festival-page": {}
   }
 }

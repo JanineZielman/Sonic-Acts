@@ -20,7 +20,40 @@ img{
   height: auto;
 }
 
-canvas{
+.text strong{
+  font-family: 'grime-3';
+  color: rgb(4,39,20);
+  animation: fontAnimationHover 5s infinite, colorAnimation 20s infinite;
+  animation-timing-function: ease-in-out, ease-in-out;
+  animation-direction: alternate;
+  font-variation-settings: 'wght' 50;
+  font-size: 10vw;
+  text-decoration: none;
+}
+
+.text2 strong{
+  font-family: 'grime-1';
+  color: red;
+  /* animation: fontAnimationHover 5s infinite, colorAnimation 20s infinite;
+  animation-timing-function: ease-in-out, ease-in-out;
+  animation-direction: alternate; */
+  font-variation-settings: 'wght' 50;
+  font-style: normal;
+  font-size: 10vw;
+  text-decoration: none;
+}
+
+@keyframes fontAnimationHover {
+  0% {
+    font-variation-settings: 'wght' 50;
+  }
+  100% {
+    font-variation-settings: 'wght' 100;
+  }
+}
+
+.wrapper p{
+  margin: 0;
 }
 
 * {

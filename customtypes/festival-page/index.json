@@ -1,0 +1,28 @@
+{
+  "id": "festival-page",
+  "label": "FestivalPage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "special_text": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}
