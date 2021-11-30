@@ -10,14 +10,7 @@
             }
           }
         },
-        "items": {
-          "text": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          }
-        }
+        "items": {}
       }
     }
   },
@@ -54,6 +47,31 @@
         }
       }
     },
-    "festival-page": {}
+    "festival-page": {},
+    "festival-programme": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "text": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "festival-programme-item": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "series": {},
+      "type": {},
+      "location": {}
+    }
   }
 }

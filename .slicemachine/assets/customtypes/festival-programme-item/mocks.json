@@ -1,0 +1,57 @@
+{
+  "id": "4d57f3ae-16f4-4bfc-b14a-cc9698e5f3cd",
+  "uid": "quod-et-totam",
+  "type": "festival-programme-item",
+  "data": {
+    "title": [
+      {
+        "type": "heading2",
+        "text": "Matrix cross-media experiences",
+        "spans": []
+      }
+    ],
+    "day": "21",
+    "month": "November",
+    "startTime": "utilize ubiquitous convergence",
+    "endTime": "architect extensible channels",
+    "series": [
+      {
+        "seriesItem": "Special Event"
+      },
+      {
+        "seriesItem": "Conference & Film"
+      },
+      {
+        "seriesItem": "Special Event"
+      },
+      {
+        "seriesItem": "Special Event"
+      }
+    ],
+    "type": [
+      {
+        "typeItem": "Concert"
+      },
+      {
+        "typeItem": "Installation"
+      },
+      {
+        "typeItem": "Installation"
+      },
+      {
+        "typeItem": "Live"
+      }
+    ],
+    "location": [
+      {
+        "locationItem": "Arti et Amicitiae"
+      },
+      {
+        "locationItem": "De Brakke Grond"
+      },
+      {
+        "locationItem": "Oude Kerk"
+      }
+    ]
+  }
+}

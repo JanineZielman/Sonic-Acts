@@ -1,0 +1,58 @@
+.festival-programme{
+	h1{
+		text-align: center;
+		font-size: 19vw;
+		position: relative;
+	}
+	.layer-1{
+		position: absolute;
+		font-family: 'grime-3';
+		width: 100vw;
+		color: rgb(0,255,0);
+	}
+	.layer-2{
+		font-family: 'grime-1';
+		width: 100vw;
+		color: rgb(4,39,20);
+	}
+	.intro{
+		p{
+			font-size: 35px;
+			line-height: 45px;
+		}
+	}
+	.programme-list{
+		span{
+			font-size: 20px;
+			line-height: 27px;
+			&.date{
+				margin-left: 30px;
+			}
+		}
+		h2{
+			font-size: 50px;
+			line-height: 50px;
+		}
+		.programme-item{
+			border-bottom: 5px solid black;
+			padding: 14px 0;
+			.content-wrapper{
+				.info{
+					white-space: initial;
+					span{
+						display: inline-block;
+						&:after{
+							content: '/';
+							margin: 0 10px;
+						}
+						&:last-child{
+							&:after{
+								content: '';
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

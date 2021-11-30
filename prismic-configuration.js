@@ -20,12 +20,6 @@ export const linkResolver = (doc) => {
   if (doc.type === "page") {
     return `/${doc.uid}`;
   }
-  if (doc.type === "news") {
-    return `/news`;
-  }
-  if (doc.type === "festival-page") {
-    return `/festival`;
-  }
   if (doc.type === 'news-item') {
     return `/news/${doc.uid}`
   }
@@ -36,12 +30,6 @@ export const linkResolver = (doc) => {
 export const hrefResolver = (doc) => {
   if (doc.type === 'news-item') {
     return '/news/[uid]'
-  }
-  if (doc.type === "festival-page") {
-    return `/festival`;
-  }
-  if (doc.type === "news") {
-    return `/news`;
   }
   return '/'
 }

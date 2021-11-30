@@ -1,16 +1,16 @@
 import React from "react";
 import SliceZone from "next-slicezone";
-import resolver from "../sm-resolver.js";
+import resolver from "../../sm-resolver";
 import Prismic from '@prismicio/client'
 import { RichText } from "prismic-reactjs";
 
 // Project components & functions
-import { Client } from "../utils/prismicHelpers";
+import { Client } from "../../utils/prismicHelpers";
 
 /**
  * Homepage component
  */
-const FestivalPage = ({ festivalHome, posts }) => {
+const FestivalPage = ({ festivalHome }) => {
 
   if (festivalHome && festivalHome.data) {
     return (

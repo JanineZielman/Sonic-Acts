@@ -1,0 +1,173 @@
+{
+  "id": "festival-programme-item",
+  "label": "Festival Programme Item",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "title": {
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        },
+        "type": "StructuredText"
+      },
+      "day": {
+        "config": {
+          "label": "Day",
+          "placeholder": "Select the day",
+          "options": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31"
+          ]
+        },
+        "type": "Select"
+      },
+      "month": {
+        "config": {
+          "label": "Month",
+          "placeholder": "Select the month",
+          "options": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+          ]
+        },
+        "type": "Select"
+      },
+      "startTime": {
+        "config": {
+          "label": "Start Time",
+          "placeholder": "00:00"
+        },
+        "type": "Text"
+      },
+      "endTime": {
+        "config": {
+          "label": "End Time",
+          "placeholder": "00:00"
+        },
+        "type": "Text"
+      },
+      "series": {
+        "config": {
+          "label": "Series",
+          "placeholder": "",
+          "fields": {
+            "seriesItem": {
+              "config": {
+                "label": "Series Item",
+                "placeholder": "Select Serie",
+                "options": [
+                  "Exhibition",
+                  "Conference & Film",
+                  "Progress Bar",
+                  "Workshops",
+                  "Special Event"
+                ]
+              },
+              "type": "Select"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "type": {
+        "config": {
+          "label": "Type",
+          "placeholder": "",
+          "fields": {
+            "typeItem": {
+              "config": {
+                "label": "Type Item",
+                "placeholder": "Select Type",
+                "options": [
+                  "Opening",
+                  "DJ",
+                  "Installation",
+                  "Interpretation",
+                  "Live",
+                  "Performance",
+                  "Concert"
+                ]
+              },
+              "type": "Select"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "location": {
+        "config": {
+          "label": "Location",
+          "placeholder": "",
+          "fields": {
+            "locationItem": {
+              "config": {
+                "label": "Location Item",
+                "placeholder": "Select Location",
+                "options": [
+                  "Arti et Amicitiae",
+                  "De Brakke Grond",
+                  "Oude Kerk",
+                  "Paradiso",
+                  "Stedelijk Museum",
+                  "W 139"
+                ]
+              },
+              "type": "Select"
+            }
+          }
+        },
+        "type": "Group"
+      }
+    }
+  }
+}
