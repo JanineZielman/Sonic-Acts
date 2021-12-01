@@ -3,10 +3,6 @@ import { RichText } from 'prismic-reactjs'
 
 const SpecialText = ({ slice }) => {
   
-  function isEven(n) {
-    return n % 2 == 0;
-  }
-
   return(
     <div className="wrapper">
       {
@@ -16,14 +12,16 @@ const SpecialText = ({ slice }) => {
             <span>{RichText.asText(slice.primary.text)}</span>
             { slice?.items?.map((item, i) => 
              <>
-              { isEven(i) == true ?
-                <span className="effect">
-                  {item.text[0].text.split("").map(function(char, index){
-                    return <span aria-hidden="true" key={index} style={{'--delay': (Math.floor(Math.random() * 20) * 0.5) + 's', '--random': (Math.floor(Math.random() * 50) + 50)}}>{char}</span>;
-                  })}
-                </span>
-              : <span className="noEffect">{item.text[0].text}</span> 
-              }
+                {item.text[0] &&  
+                  <sup className="noEffect">{item.text[0].text}</sup>
+                }
+                 {item.textEffect[0] &&  
+                  <span className="effect">
+                    {item.textEffect[0].text.split("").map(function(char, index){
+                      return <span aria-hidden="true" key={index} style={{'--delay': (Math.floor(Math.random() * 20) * 0.5) + 's', '--random': (Math.floor(Math.random() * 50) + 50)}}>{char}</span>;
+                    })}
+                  </span>
+                }
              </>
             )}
           </div>
