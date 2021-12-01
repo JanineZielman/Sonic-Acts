@@ -17,6 +17,8 @@ const FestivalPage = ({ festivalHome }) => {
       <>
 				<section>
 					<SliceZone {...festivalHome.data} resolver={resolver} />
+					<SliceZone {...festivalHome.data} resolver={resolver} />
+					<SliceZone {...festivalHome.data} resolver={resolver} />
 				</section>
 				<style jsx>{`
 					section{
@@ -27,8 +29,7 @@ const FestivalPage = ({ festivalHome }) => {
 						height: 100vh;
 						overflow: hidden;
 						overflow-y: scroll;
-						color: rgb(4,39,20);
-						background-color: transparent;
+						background-color: #dfdfdf;
 					}
 				`}</style>
       </>
