@@ -90,8 +90,8 @@
 			display: block;
 			min-width: 2vw;
 			min-height: 2vw;
-			transition: font-variation-settings 5s linear;
-			-webkit-transition: font-variation-settings 5s linear;
+			transition: font-variation-settings 2s ease-out;
+			-webkit-transition: font-variation-settings 2s ease-out;
 			transition-delay: var(--delay);
 			-webkit-transition-delay: var(--delay);
       &::selection{
