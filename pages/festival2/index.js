@@ -10,15 +10,15 @@ import { Client } from "../../utils/prismicHelpers";
 /**
  * Homepage component
  */
-const FestivalPage = ({ festivalHome }) => {
+const FestivalPage = ({ festivalHome2 }) => {
 
-  if (festivalHome && festivalHome.data) {
+  if (festivalHome2 && festivalHome2.data) {
     return (
       <>
-				<section className="festival">
-					<SliceZone {...festivalHome.data} resolver={resolver} />
-					<SliceZone {...festivalHome.data} resolver={resolver} />
-					<SliceZone {...festivalHome.data} resolver={resolver} />
+				<section className="festival2">
+					<SliceZone {...festivalHome2.data} resolver={resolver} />
+					<SliceZone {...festivalHome2.data} resolver={resolver} />
+					<SliceZone {...festivalHome2.data} resolver={resolver} />
 				</section>
 				<style jsx>{`
 					section{
@@ -41,11 +41,11 @@ const FestivalPage = ({ festivalHome }) => {
 
 export async function getStaticProps() {
 
-  const festivalHome = await Client().getSingle("festival-page") || {}
+  const festivalHome2 = await Client().getSingle("festival-page") || {}
 
   return {
     props: {
-      festivalHome,
+      festivalHome2,
     }
   }
 }

@@ -1,39 +1,68 @@
-.wrapper{
-	position: absolute;
-	&:nth-child(1){
-		.text{
-			.effect span{
-				color: #07153D;
-				font-family: 'grime-3';
-				font-variation-settings: 'wght' var(--random);
+.festival{
+	.wrapper{
+		position: absolute;
+		&:nth-child(1){
+			.text{
+				.effect span{
+					color: #07153D;
+					font-family: 'dirt-3';
+					font-variation-settings: 'wght' var(--random);
+				}
 			}
 		}
-	}
-	&:nth-child(2){
-		.text {
-			.effect span{
-				color: #C0E1D7;
-				font-family: 'grime-2';
-				font-variation-settings: 'wght' var(--random);
+		&:nth-child(2){
+			.text {
+				.effect span{
+					color: #C0E1D7;
+					font-family: 'dirt-2';
+					font-variation-settings: 'wght' var(--random);
+				}
 			}
 		}
-	}
-	&:nth-child(3){
-		.text{
-			.effect span{
-				color: #ffffff;
-				font-family: 'grime-1';
-			}
-		}
-	}
-	&:hover, &:active{
-		.text .effect{
-			span{
-				font-variation-settings: 'wght' 100;
+		&:nth-child(3){
+			.text{
+				.effect span{
+					color: #ffffff;
+					font-family: 'dirt-1';
+				}
 			}
 		}
 	}
 }
+
+.festival2{
+	.wrapper{
+		position: absolute;
+		&:nth-child(1){
+			.text{
+				.effect span{
+					color: #07153D;
+					font-family: 'grime-3';
+					font-variation-settings: 'wght' var(--random);
+				}
+			}
+		}
+		&:nth-child(2){
+			.text {
+				.effect span{
+					color: #C0E1D7;
+					font-family: 'grime-2';
+					font-variation-settings: 'wght' var(--random);
+				}
+			}
+		}
+		&:nth-child(3){
+			.text{
+				.effect span{
+					color: #ffffff;
+					font-family: 'grime-1';
+				}
+			}
+		}
+	}
+}
+
+
 
 
 .text{
@@ -50,16 +79,21 @@
     font-size: 9.5vw;
     margin-right: 2vw;
     font-variation-settings: 'wght' 50;
-    // &:hover, &:active{
-    //   span{
-    //     font-variation-settings: 'wght' 100;
-    //   }
-    // }
+		-moz-font-variation-settings: 'wght' 50 ;
+		&:hover, &:active{
+			span{
+				font-variation-settings: 'wght' 100;
+				-moz-font-variation-settings: 'wght' 100 ;
+			}
+		}
     span{
+			display: block;
 			min-width: 2vw;
 			min-height: 2vw;
-			transition: font-variation-settings 5s;
-      transition-delay: var(--delay);
+			transition: font-variation-settings 5s linear;
+			-webkit-transition: font-variation-settings 5s linear;
+			transition-delay: var(--delay);
+			-webkit-transition-delay: var(--delay);
       &::selection{
         background-color: rgb(4,39,20);
         color: rgb(210,202,228);

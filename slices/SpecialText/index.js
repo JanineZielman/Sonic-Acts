@@ -18,7 +18,7 @@ const SpecialText = ({ slice }) => {
                  {item.textEffect[0] &&  
                   <span className="effect">
                     {item.textEffect[0].text.split("").map(function(char, index){
-                      return <span aria-hidden="true" key={index} style={{'--delay': (Math.floor(Math.random() * 20) * 0.5) + 's', '--random': (Math.floor(Math.random() * 50) + 50)}}>{char}</span>;
+                      return <span aria-hidden="true" key={index} style={{'--delay': (Math.floor(Math.random() * 10) * 0.5) + 's', '--random': (Math.floor(Math.random() * 50) + 50)}}>{char}</span>;
                     })}
                   </span>
                 }
