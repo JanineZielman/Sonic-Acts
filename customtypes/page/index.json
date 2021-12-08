@@ -37,6 +37,9 @@
             },
             "collapsible": {
               "type": "SharedSlice"
+            },
+            "landing_outro": {
+              "type": "SharedSlice"
             }
           }
         }

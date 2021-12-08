@@ -13,15 +13,9 @@
         "items": {}
       }
     },
-    "LandingPage": {
+    "LandingOutro": {
       "default-slice": {
         "primary": {
-          "title": {
-            "config": {
-              "patternType": "HEADING",
-              "blocks": 1
-            }
-          },
           "specialText1": {
             "config": {
               "patternType": "PARAGRAPH",
@@ -36,9 +30,9 @@
           }
         },
         "items": {
-          "info": {
+          "column": {
             "config": {
-              "patternType": "HEADING",
+              "patternType": "PARAGRAPH",
               "blocks": 1
             }
           }
