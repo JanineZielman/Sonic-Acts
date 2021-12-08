@@ -35,7 +35,7 @@ export async function getStaticProps() {
 		Prismic.Predicates.at("document.type", "festival-programme-item"), 
 		postsQueryOptions
 	)
-	console.log(posts)
+	// console.log(posts)
 	// const series = await Client().query(Prismic.Predicates.at('my.festival-programme-item.series.seriesItem', 'Exhibition'), postsQueryOptions)
 
 

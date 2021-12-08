@@ -1,4 +1,5 @@
 .festival-programme{
+	min-height: 100vh;
 	h1{
 		text-align: center;
 		font-size: 19vw;
@@ -8,12 +9,12 @@
 		position: absolute;
 		font-family: 'grime-3';
 		width: 100vw;
-		color: rgb(0,255,0);
+		color: #C0E1D7;
 	}
 	.layer-2{
 		font-family: 'grime-1';
 		width: 100vw;
-		color: rgb(4,39,20);
+		color: #07153D;
 	}
 	.intro{
 		p{
@@ -36,6 +37,7 @@
 		.programme-item{
 			border-bottom: 5px solid black;
 			padding: 14px 0;
+			position: relative;
 			.content-wrapper{
 				.info{
 					white-space: initial;
@@ -54,5 +56,32 @@
 				}
 			}
 		}
+	}
+	.vocht-1{
+		width: 50%;
+		position: absolute;
+		bottom: -25px;
+		right: 0;
+		stroke-width: 10px;
+		overflow: visible;
+		path{
+			stroke: black;
+			stroke-width:1px;
+			animation: vochtAnimation 10s infinite;
+			animation-delay: var(--delay);
+			animation-timing-function: ease-in-out, ease-in-out;
+			animation-direction: alternate;
+		}
+	}
+}
+
+@keyframes vochtAnimation {
+	0% {
+		stroke-width: 1px;
+		transform: scale(1,1);
+	}
+	100% {
+		stroke-width: 20px;
+		transform: scale(1,1.3);
 	}
 }

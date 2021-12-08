@@ -11,26 +11,27 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "LandingPage",
       "primary": {
-        "bigText1": {
+        "title": {
           "config": {
-            "label": "Big Text (line 1)",
+            "label": "Title",
             "placeholder": "",
             "allowTargetBlank": true,
-            "single": "heading1"
-          },
-          "type": "StructuredText"
-        },
-        "bigText2": {
-          "config": {
-            "label": "Big Text (line 2)",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "single": "heading1"
+            "multi": "heading1"
           },
           "type": "StructuredText"
         }
       },
-      "items": {}
+      "items": {
+        "info": {
+          "config": {
+            "label": "Info",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        }
+      }
     }
   ]
 }

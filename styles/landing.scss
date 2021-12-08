@@ -1,0 +1,34 @@
+.landing{
+	padding: 14px;
+	.landing-section{
+		padding: 14px 0;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		.title-wrapper{
+			h1{
+				font-size: 150px;
+				line-height: 0.8;
+			}
+		}
+		.info-wrapper{
+			h2{
+				border-top: 2px solid black;
+				font-size: 80px;
+				text-align: right;
+			}
+		}
+	}
+	.text-block{
+		width: 60vw;
+		h3{
+			font-size: 48px;
+			line-height: 52px;
+			font-weight: normal;
+		}
+		p{
+			font-size: 30px;
+		}
+	}
+}
