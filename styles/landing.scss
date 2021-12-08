@@ -219,8 +219,8 @@
 				width: 100%;
 				text-align: center;
 				display: inline-block;
-				transition: font-variation-settings 0.4s ease;
-				-webkit-transition: font-variation-settings 0.4s ease;
+				transition: font-variation-settings 1s ease;
+				-webkit-transition: font-variation-settings 1s ease;
 				&:nth-child(1){
 					font-family: 'dirt-3';
 					color: rgb(	36,11,35);
@@ -243,8 +243,8 @@
 				color: white;
 				font-variation-settings: 'wght' 50;
 				-moz-font-variation-settings: 'wght' 50 ;
-				transition: font-variation-settings 0.4s ease;
-				-webkit-transition: font-variation-settings 0.4s ease;
+				transition: font-variation-settings 1s ease;
+				-webkit-transition: font-variation-settings 1s ease;
 			}
 		}
 	}

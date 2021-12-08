@@ -43,8 +43,8 @@ const LandingOutro = ({ slice }) => (
     </div>
     <div className="columns-wrapper">
       { slice?.items?.map((item, i) => 
-        <div className="column">
-          <RichText render={item.column} key={'column-'+i}/>
+        <div className="column" key={'column-'+i}>
+          <RichText render={item.column}/>
         </div>
       )}
     </div>
