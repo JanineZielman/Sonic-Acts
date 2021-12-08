@@ -1,33 +1,33 @@
 {
-  "id": "text_block",
+  "id": "collapsible",
   "type": "SharedSlice",
-  "name": "TextBlock",
-  "description": "TextBlock",
+  "name": "Collapsible",
+  "description": "Collapsible",
   "variations": [
     {
       "id": "default-slice",
       "name": "Default slice",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "TextBlock",
+      "description": "Collapsible",
       "primary": {
         "headline": {
+          "type": "StructuredText",
           "config": {
             "label": "Headline",
-            "placeholder": "",
+            "placeholder": "This is where it all begins...",
             "allowTargetBlank": true,
-            "single": "heading1,heading2,heading3,heading4,heading5,heading6"
-          },
-          "type": "StructuredText"
+            "single": "heading3"
+          }
         },
         "text": {
+          "type": "StructuredText",
           "config": {
             "label": "Text",
             "placeholder": "A nice text",
             "allowTargetBlank": true,
             "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-          },
-          "type": "StructuredText"
+          }
         }
       },
       "items": {}

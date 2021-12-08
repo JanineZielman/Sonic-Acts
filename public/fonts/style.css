@@ -61,7 +61,29 @@
 
 
 @font-face {
-	font-family: "Suisse Int'l Book"; 
-	src: url("//db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.eot"); 
-	src: url("//db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.woff") format("woff"), url("//db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.svg#Suisse Int'l Book") format("svg"); 
+	font-family: "Suisse";  
+	src: url('SuisseIntl-Regular-WebM.woff2');
+	font-weight: 300;
+  font-style: normal;
+} 
+
+@font-face {
+	font-family: "Suisse";  
+	src: url('SuisseIntl-RegularItalic-WebM.woff2');
+	font-weight: 300;
+  font-style: italic;
+} 
+
+@font-face {
+	font-family: "Suisse";  
+	src: url('SuisseIntl-Medium-WebM.woff2');
+	font-weight: 500;
+  font-style: normal;
+} 
+
+@font-face {
+	font-family: "Suisse";  
+	src: url('SuisseIntl-MediumItalic-WebM.woff2');
+	font-weight: 500;
+  font-style: italic;
 } 

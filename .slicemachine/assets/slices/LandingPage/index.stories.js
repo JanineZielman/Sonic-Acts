@@ -5,5 +5,5 @@ export default {
 }
 
 
-export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"landing_page","items":[{"info":[{"type":"heading2","text":"Extend intuitive vortals","spans":[]}]},{"info":[{"type":"heading2","text":"Scale dot-com supply-chains","spans":[]}]},{"info":[{"type":"heading2","text":"Mesh global blockchains","spans":[]}]}],"primary":{"title":[{"type":"heading1","text":"Disintermediate virtual paradigms","spans":[]}]},"id":"_DefaultSlice"}} />
+export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"landing_page","items":[{"info":[{"type":"heading2","text":"Cultivate enterprise e-business","spans":[]}]},{"info":[{"type":"heading2","text":"Productize cross-platform relationships","spans":[]}]},{"info":[{"type":"heading2","text":"Drive clicks-and-mortar metrics","spans":[]}]},{"info":[{"type":"heading2","text":"Recontextualize transparent portals","spans":[]}]}],"primary":{"title":[{"type":"heading1","text":"Mesh B2B vortals","spans":[]}]},"id":"_DefaultSlice"}} />
 _DefaultSlice.storyName = 'Default slice'
