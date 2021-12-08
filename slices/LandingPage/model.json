@@ -19,6 +19,24 @@
             "multi": "heading1"
           },
           "type": "StructuredText"
+        },
+        "specialText1": {
+          "config": {
+            "label": "Special Text 1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "specialText2": {
+          "config": {
+            "label": "Special Text 2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
         }
       },
       "items": {
