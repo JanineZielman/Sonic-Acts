@@ -1,5 +1,5 @@
 .landing{
-	background-color: #BCBCBC;
+	background-color: rgb(230, 230, 230);
 	padding: 14px;
 	.landing-section{
 		padding: 14px 0;
@@ -10,7 +10,7 @@
 		justify-content: space-between;
 		.title-wrapper{
 			h1{
-				font-size: 10vw;
+				font-size: calc(16px + 9vw);
 				line-height: 0.8;
 				font-weight: 500;
 			}
@@ -129,23 +129,24 @@
 				}
 			}
 		}
-		h2{
-			font-size: 72px;
-			font-weight: 300;
-			line-height: 1.1;
-		}
-		h3{
-			font-size: 36px;
-			line-height: 1.1;
-			font-weight: 300;
-			width: 60vw;
-		}
-		p{
-			font-size: 24px;
-			width: 60vw;
-			font-weight: 300;
-			line-height: 1.4;
-		}
+	}
+
+	h2{
+		font-size: 72px;
+		font-weight: 300;
+		line-height: 1.1;
+	}
+	h3{
+		font-size: 36px;
+		line-height: 1.1;
+		font-weight: 300;
+		width: 60vw;
+	}
+	p{
+		font-size: 24px;
+		width: 60vw;
+		font-weight: 300;
+		line-height: 1.4;
 	}
 
 	@media only screen and (max-width: 1200px) {
@@ -162,11 +163,27 @@
 		}
 	}
 
+	@media only screen and (max-width: 900px) {
+		h2{
+			font-size: 36px;
+		}
+		h3{
+			font-size: 28px;
+			width: 100%;
+		}
+		p{
+			font-size: 18px;
+			width: 100%;
+		}	
+	}
+
+	
+
 	@media only screen and (max-width: 600px) {
 		.landing-section {
-			height: 45vh;
+			height: 40vh;
 			.special-text{
-				top: 20%;
+				top: 22%;
 			}
 			.info-wrapper{
 				h2{
