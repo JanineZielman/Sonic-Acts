@@ -40,6 +40,9 @@
             },
             "landing_outro": {
               "type": "SharedSlice"
+            },
+            "cta_buttons": {
+              "type": "SharedSlice"
             }
           }
         }

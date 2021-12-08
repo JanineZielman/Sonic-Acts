@@ -26,6 +26,7 @@
     "react-collapsible": "^2.8.4",
     "react-dom": "^16.14.0",
     "react-metaballs-js": "^2.0.0",
+    "react-reveal": "^1.2.2",
     "sass": "^1.43.4",
     "styled-jsx": "^4.0.1"
   },

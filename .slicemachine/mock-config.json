@@ -13,30 +13,10 @@
         "items": {}
       }
     },
-    "LandingOutro": {
+    "CtaButtons": {
       "default-slice": {
-        "primary": {
-          "specialText1": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          },
-          "specialText2": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          }
-        },
-        "items": {
-          "column": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          }
-        }
+        "primary": {},
+        "items": {}
       }
     }
   },

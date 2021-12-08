@@ -6,7 +6,7 @@ import resolver from "../sm-resolver.js";
 
 const Page = (props) => {
   return(
-    <section className="landing">
+    <section className="landing" id="landing">
       <SliceZone {...props} resolver={resolver} />
     </section>
   );
