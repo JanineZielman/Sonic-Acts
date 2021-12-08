@@ -18,6 +18,8 @@
 			bottom: 14px;
 			right: 14px;
 			width: 100%;
+			left: 0px;
+			border-bottom: 2px solid black;
 			h2{
 				border-top: 2px solid black;
 				font-size: 80px;
@@ -188,31 +190,70 @@
 				}
 			}
 		}
+		.landing-outro{
+			height: 90vh;
+			.special-text{
+				top: 20%;
+			}
+		}
 	}
 
 	@media only screen and (max-width: 900px) {
-		h2{
+		h1{
 			font-size: 36px;
 		}
-		h3{
+		h2, .Collapsible span.Collapsible__trigger{
 			font-size: 28px;
+		}
+		h3{
+			font-size: 24px;
 			width: 100%;
 		}
 		p{
 			font-size: 18px;
 			width: 100%;
 		}	
+		.columns-wrapper{
+			display: flex;
+			width: 100%;
+			position: absolute;
+			bottom: -40px;
+			flex-wrap: wrap;
+		}
+		.landing-outro{
+			height: 55vh;
+			.special-text{
+				top: 35%;
+			}
+		}
 	}
 
 	
 
 	@media only screen and (max-width: 600px) {
 		.landing-section {
-			height: 40vh;
+			height: 45vh;
+			.special-text{
+				top: 45%;
+			}
 			.info-wrapper{
 				h2{
-					font-size: 30px;
+					font-size: 36px;
 				}
+			}
+		}
+		.landing-outro{
+			height: 60vh;
+			.special-text{
+				top: 15%;
+			}
+		}
+		.columns-wrapper{
+			p{
+				font-size: 16px;
+			}
+			.column{
+				width: auto;
 			}
 		}
 	}
