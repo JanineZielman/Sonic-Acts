@@ -258,7 +258,7 @@
 				}
 			}
 			a{
-				width: 30vw;
+				width: 300px;
 				display: block;
 				padding: 0 2vw;
 				text-decoration: none;
@@ -315,6 +315,15 @@
 			width: 100%;
 			flex-wrap: wrap;
 		}
+		.cta-buttons{
+			text-align: left;
+			.slide-wrapper{
+				a{
+					text-align: center;
+					width: 45vw;
+				}
+			}
+		}
 	}
 
 	
@@ -350,7 +359,7 @@
 		}
 		.logo-section{
 			img{
-				max-width: 90px;
+				max-width: 60px;
 				height: auto;
 			}
 		}
