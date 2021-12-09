@@ -11,21 +11,12 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "LandingOutro",
       "primary": {
-        "specialText1": {
-          "type": "StructuredText",
+        "title": {
           "config": {
-            "label": "Special Text 1",
-            "placeholder": "A nice description of your feature",
-            "allowTargetBlank": true,
-            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-          }
-        },
-        "specialText2": {
-          "config": {
-            "label": "Special Text 2",
+            "label": "Title",
             "placeholder": "",
             "allowTargetBlank": true,
-            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           },
           "type": "StructuredText"
         }

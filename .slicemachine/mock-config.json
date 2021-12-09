@@ -18,6 +18,23 @@
         "primary": {},
         "items": {}
       }
+    },
+    "LandingOutro": {
+      "default-slice": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "LandingPage": {
+      "default-slice": {
+        "primary": {}
+      }
     }
   },
   "_cts": {
