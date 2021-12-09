@@ -5,31 +5,45 @@
     "slice_type": "cta_buttons",
     "items": [
       {
-        "buttonText": "integrate sticky markets",
+        "buttonText": "empower value-added applications",
+        "buttonLink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "buttonText": "benchmark vertical channels",
         "buttonLink": {
           "link_type": "Web",
           "url": "https://slicemachine.dev"
         }
       },
       {
-        "buttonText": "monetize real-time content",
+        "buttonText": "embrace extensible models",
+        "buttonLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "buttonText": "synergize magnetic functionalities",
         "buttonLink": {
           "link_type": "Web",
           "url": "http://twitter.com"
         }
       },
       {
-        "buttonText": "target world-class functionalities",
+        "buttonText": "innovate proactive relationships",
         "buttonLink": {
           "link_type": "Web",
-          "url": "http://google.com"
+          "url": "https://prismic.io"
         }
       },
       {
-        "buttonText": "redefine bricks-and-clicks web services",
+        "buttonText": "benchmark e-business metrics",
         "buttonLink": {
           "link_type": "Web",
-          "url": "http://twitter.com"
+          "url": "https://prismic.io"
         }
       }
     ],

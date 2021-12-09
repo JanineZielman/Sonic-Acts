@@ -99,8 +99,8 @@
 			.animated-text{
 				color: white;
 				font-family: 'grime-1';
-				font-variation-settings: 'wght' 50;
-				-moz-font-variation-settings: 'wght' 50 ;
+				font-variation-settings: 'wght' 100;
+				-moz-font-variation-settings: 'wght' 100 ;
 				div{
 					display: inline-flex;
 					flex-wrap: wrap;
@@ -119,8 +119,8 @@
 					}
 					&:hover, &:active{
 						span{
-							font-variation-settings: 'wght' 100;
-							-moz-font-variation-settings: 'wght' 100 ;
+							font-variation-settings: 'wght' 50;
+							-moz-font-variation-settings: 'wght' 50 ;
 						}
 					}
 					&.s1{
@@ -211,11 +211,13 @@
 		font-weight: 500;
 		line-height: 1.1;
 		margin-top: 48px;
-		strong{
-			font-family: 'dirt-1';
+		display: block;
+		a{
+			font-family: 'dirt-3';
 			font-variation-settings: 'wght' 50;
 			-moz-font-variation-settings: 'wght' 50 ;
 			transition: font-variation-settings 1s;
+			text-decoration: none;
 			&:hover{
 				font-variation-settings: 'wght' 100;
 				-moz-font-variation-settings: 'wght' 100 ;
@@ -256,15 +258,26 @@
 				}
 			}
 			a{
+				width: 30vw;
+				display: block;
 				padding: 0 2vw;
 				text-decoration: none;
-				font-family: 'dirt-1';
+				font-family: 'dirt-3';
 				color: black;
 				font-variation-settings: 'wght' 50;
 				-moz-font-variation-settings: 'wght' 50 ;
 				transition: font-variation-settings 1s ease;
 				-webkit-transition: font-variation-settings 1s ease;
 			}
+		}
+	}
+
+	.logo-section{
+		display: flex;
+		flex-wrap: wrap;
+		img{
+			max-width: 100px;
+			height: auto;
 		}
 	}
 
@@ -335,6 +348,13 @@
 				font-weight: 300;
 			}
 		}
+		.logo-section{
+			img{
+				max-width: 90px;
+				height: auto;
+			}
+		}
+	
 	}
 
 

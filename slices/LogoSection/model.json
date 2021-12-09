@@ -1,0 +1,26 @@
+{
+  "id": "logo_section",
+  "type": "SharedSlice",
+  "name": "LogoSection",
+  "description": "LogoSection",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "LogoSection",
+      "primary": {},
+      "items": {
+        "logo": {
+          "config": {
+            "label": "Logo",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}
