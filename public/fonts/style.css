@@ -1,28 +1,4 @@
 @font-face {
-	font-family: 'test';
-	src: url('Sonic-CT03VF.woff2') format('woff2-variations');
-	font-weight: 50 100;
-}
-
-@font-face {
-	font-family: 'test2';
-	src: url('Sonic-CT05VF.woff2') format('woff2-variations');
-	font-weight: 50 100;
-}
-
-@font-face {
-	font-family: 'test3';
-	src: url('Sonic-CT06VF.woff2') format('woff2-variations');
-	font-weight: 50 100;
-}
-
-@font-face {
-	font-family: 'test4';
-	src: url('Sonic-CT01VF.woff2') format('woff2-variations');
-	font-weight: 50 100;
-}
-
-@font-face {
 	font-family: 'grime-1';
 	src: url('Sonic-grime-open-01VF.woff2') format('woff2-variations');
 	font-weight: 50 100;
