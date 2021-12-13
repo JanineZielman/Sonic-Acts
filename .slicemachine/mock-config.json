@@ -12,6 +12,11 @@
         },
         "items": {}
       }
+    },
+    "Collapsible": {
+      "default-slice": {
+        "primary": {}
+      }
     }
   },
   "_cts": {

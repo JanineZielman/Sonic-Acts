@@ -1,15 +1,15 @@
 .landing{
-	background-color: rgb(230, 230, 230);
+	background-color: #AFAFAF;
 	padding: 14px;
 	.landing-section{
 		padding: 14px 0;
-		margin-bottom: 48px;
+		margin-bottom: 80px;
 		height: 100vh;
 		position: relative;
 		.title-wrapper{
 			float: right;
 			h1{
-				font-size: calc(16px + 9vw);
+				font-size: 80px;
 				line-height: 0.8;
 				font-weight: 500;
 				margin-top: 0px;
@@ -40,7 +40,7 @@
 			z-index: 99;
 			.layer-1{
 				position: absolute;
-				color: rgb(	36,11,35);
+				color: #07153D;				;
 				font-family: 'grime-3';
 				font-weight: 100;
 				z-index: -1;
@@ -186,12 +186,6 @@
 			}
 		}
 	}
-	.landing-outro{
-		h1{
-			// font-size: calc(16px + 9vw);
-			// font-weight: 500;
-		}
-	}
 	.columns-wrapper{
 		display: flex;
 		width: 60vw;
@@ -275,15 +269,34 @@
 	.logo-section{
 		display: flex;
 		flex-wrap: wrap;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		border-top: 2px solid black;
+		padding-top: 10px;
+		margin-top: 48px;
 		img{
 			max-width: 100px;
 			height: auto;
 		}
 	}
 
+	.landing-outro{
+		h1{
+			font-family: 'dirt-3';
+			font-weight: 50;
+		}
+	}
+
 	@media only screen and (max-width: 1200px) {
 		.landing-section {
 			height: 80vh;
+			margin-bottom: 48px;
+			.title-wrapper{
+				h1{
+					font-size: 48px;
+				}
+			}
 			.info-wrapper{
 				h2{
 					font-size: 48px;
@@ -334,8 +347,14 @@
 	@media only screen and (max-width: 600px) {
 		.landing-section {
 			height: 50vh;
+			margin-bottom: 36px;
 			.special-text{
 				top: 45%;
+			}
+			.title-wrapper{
+				h1{
+					font-size: 36px;
+				}
 			}
 			.info-wrapper{
 				h2{

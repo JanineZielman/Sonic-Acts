@@ -8,17 +8,18 @@
       "headline": [
         {
           "type": "heading3",
-          "text": "Synthesize viral ROI",
+          "text": "Transform rich interfaces",
           "spans": []
         }
       ],
       "text": [
         {
           "type": "paragraph",
-          "text": "Qui ullamco cupidatat dolor labore deserunt. Officia nulla adipisicing anim minim sunt cupidatat amet eiusmod voluptate duis. Aliquip elit cupidatat officia nostrud ullamco sit esse officia consectetur adipisicing quis in.",
+          "text": "Eu elit nisi eu id magna laboris officia dolor occaecat incididunt incididunt incididunt cupidatat eiusmod Lorem.",
           "spans": []
         }
-      ]
+      ],
+      "open": true
     }
   }
 ]
