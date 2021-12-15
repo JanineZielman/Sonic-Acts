@@ -3,6 +3,7 @@ import "../styles/landing.scss";
 import "../styles/festival/globals.scss";
 import "../styles/festival/programme.scss";
 import "../styles/loading.scss"
+import "../styles/particles.scss"
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
