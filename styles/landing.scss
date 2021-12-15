@@ -349,7 +349,7 @@
 			height: 50vh;
 			margin-bottom: 36px;
 			.special-text{
-				top: 45%;
+				top: 40%;
 			}
 			.title-wrapper{
 				h1{
@@ -359,6 +359,15 @@
 			.info-wrapper{
 				h2{
 					font-size: 36px;
+				}
+			}
+			.special-text{
+				.animated-text span{
+					animation: textAnimation 5s 2;
+					animation-delay: var(--delay);
+					animation-timing-function: ease-in-out, ease-in-out;
+					animation-direction: alternate;
+					font-variation-settings: 'wght' 100;
 				}
 			}
 		}
@@ -386,6 +395,17 @@
 			}
 		}
 	
+	}
+
+	@keyframes textAnimation {
+		0% {
+			font-variation-settings: 'wght' 100;
+			-moz-font-variation-settings: 'wght' 100 ;
+		}
+		100% {
+			font-variation-settings: 'wght' 50;
+			-moz-font-variation-settings: 'wght' 50 ;
+		}
 	}
 
 
