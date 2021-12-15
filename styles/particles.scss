@@ -14,7 +14,7 @@
 //     decimal-round(0.666, 2) => 0.67
 //
 
-$pageHeight: 3000px;
+$pageHeight: 2000px;
 
 
 @function decimal-round ($number, $digits: 0, $mode: round) {
@@ -216,8 +216,9 @@ $pageHeight: 3000px;
 
 .wrapper {
 	height: 0;
-	overflow: visible;
-	width: 100%;
+	overflow-y: visible;
+	overflow-x: hidden;
+	width: 100vw;
 	margin: 0 auto;
 	background: transparent;
 	position: absolute;
